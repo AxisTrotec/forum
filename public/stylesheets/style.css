@@ -1,0 +1,109 @@
+body {
+  margin: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #242933;
+  color: #d8dee9;
+  height: 100%;
+}
+
+a,
+i {
+  color: #d8dee9;
+}
+
+h1,
+form {
+  padding-bottom: 30px;
+}
+
+label {
+  font-size: large;
+}
+
+button, .button {
+  background-color: #4c566a;
+  color: #d8dee9;
+  border: 1px solid #4c566a;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;  
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #d8dee9;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #242933;
+}
+
+#gUser,
+#gMsg {
+  background-color: #3b4252;
+  outline: none;
+  border: none;
+  color: #d8dee9;
+}
+
+#gUser {
+  width: 10%;
+}
+
+.function a{
+  margin: 0;
+  display: inline;
+}
+
+.username{
+  border-bottom: 1px solid #d8dee9;
+  padding-bottom: 10px;
+}
+
+.list{
+  padding-top: 50px;
+  padding-left: 0;
+}
+
+.list li {
+  border-left: 2px solid #648897;
+  padding-left: 10px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: fit-content;
+}
+
+.content {
+  margin-left: 250px;
+}
+
+.sidebar-nav {
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #3b4252;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-nav h1 {
+  padding-top: 30px;
+  margin-right: 0;
+  border-bottom: 2px solid #d8dee9;
+}
+
+.sidebar-nav footer {
+  bottom: 0px;
+  position: fixed;
+}

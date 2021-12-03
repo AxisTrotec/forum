@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div(class='content')
+    h1= title
+
+    form(method='POST' action='')
+      div.form-group
+        label(for='username') Username
+        input#gUser.form-control(type='text', placeholder='Username' name='username' required='true')
+      div.form-group
+        label(for='message') Message
+        input#gMsg.form-control(type='text', placeholder='Comment' name='message' required='true' )
+      button(type='submit') Submit
+    if errors
+      ul
+        for error in errors
+          li!= error.msg
